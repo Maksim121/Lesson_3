@@ -51,11 +51,25 @@ print (" ")
 
 #Задача №5
 print('Задача №5_вывести 5 наиболее часто встречающихся слов (sort), вывести количество разных слов в тексте (set)')
+#сортировка
+dict5_1=dict4_3
+print(dict5_1)
+list_dict5_1_sort=sorted(dict5_1.values())
+print(list_dict5_1_sort)
+print(list_dict5_1_sort[-1])
+for i5 in range (5):
+    print(dict5_1.items())
+    print(key)
 
+# for value in dict5_1.values():
+#     print(value)
 
+# for key, value in dict5_1.items():
+#     print(key,value)
+
+#количество разных слов в тексте
+set5_1=set(list3)
+print(set5_1)
+print('Количество разных слов в тексте =', len(set5_1))
 print ('__________________')
 print (" ")
-
-
-
-
